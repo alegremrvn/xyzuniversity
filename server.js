@@ -9,6 +9,12 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/views/index.html')
 })
 
+app.use((req, res) => {
+    res.status(404)
+        .type('text')
+        .send('Not Found')
+})
+
 app.listen(process.env.PORT, () => {
     console.log(`Now listening at ${process.env.PORT}...`)
 })
