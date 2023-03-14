@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.display {
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.nav {
+    padding: 20px;
+}
+
+.nav a {
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    color: grey;
+}
